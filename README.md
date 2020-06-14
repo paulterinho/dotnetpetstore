@@ -4,8 +4,11 @@ Just a simple example to shamelessly try to influence my wonderful colleagues (s
 
 This Techonology will allow us to 
   1) Understand any given API at a glance (it will have an updated list of all API methods), 
-  2) speed development time (you can create a stubbed service for which ever piece you aren't working on)
-  3) Auto-generate tests.
+    - Even allow us to specify what exceptions we should expect.
+  2) Allow us to Mock a service we don't have access to.
+  3) Auto-generate tests based on our Swagger/OpenAPI contract.
+  4) Speed development time (you can create a stubbed service for which ever piece you aren't working on)
+    - an example of this is if you working on a server piece, you can create a hook to automatically resend a request everytime you save, thus saving you the need to go to Postman, line up the three requests to set up the one you are interested in, and then remove that request's consequences so you can retest it. 
 
 ## Running code
 - Use "Visual Studio Code" IDE and not "Visual Studio". (See notes in the Appendix for more info)
