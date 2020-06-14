@@ -1,14 +1,16 @@
-# Swagger Petstore Auto Gen Tests for C#
+# Swagger/OpenApi Petstore Auto Gen Tests for C#
 
 Just a simple example to shamelessly try to influence my wonderful colleagues (see what I'm doing there? hahahah. ) in an effort to adopt this very useful technology. 
 
 This Techonology will allow us to 
   1) Understand any given API at a glance (it will have an updated list of all API methods), 
-    - Even allow us to specify what exceptions we should expect.
+      * Allow us to even specify what exceptions or default objects we should expect.
   2) Allow us to Mock a service we don't have access to.
   3) Auto-generate tests based on our Swagger/OpenAPI contract.
   4) Speed development time (you can create a stubbed service for which ever piece you aren't working on)
-    - an example of this is if you working on a server piece, you can create a hook to automatically resend a request everytime you save, thus saving you the need to go to Postman, line up the three requests to set up the one you are interested in, and then remove that request's consequences so you can retest it. 
+      * an example of this is if you working on a server piece, you can create a hook to automatically resend a request everytime you save, thus saving you the need to go to Postman, line up the three requests to set up the one you are interested in, and then remove that request's consequences so you can retest it. 
+      
+Check out this projects Swagger Document located at the project root.
 
 ## Running code
 - Use "Visual Studio Code" IDE and not "Visual Studio". (See notes in the Appendix for more info)
@@ -29,5 +31,5 @@ This Techonology will allow us to
 - VS Code is not needed generally, but it's needed here because I used Swagger-Editor (https://editor.swagger.io/) to auto-gen the C# server stub and it requires it as a dependency.
 - Swagger-Editor also comes in a offline version too you can download to your desktop using Docker.
 - See the Swashbuckle project for more notes on how to set this project up.
-- 
+- "Swagger" is the early version of this technology, which is now called "OpenAPI"
 
